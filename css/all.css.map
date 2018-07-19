@@ -1,0 +1,1 @@
+{"version":3,"sources":["all.scss"],"names":[],"mappings":"AAAA,GACE,MAAA,IADF,KAGI,MAAA,KAHJ,MAMI,UAAA","file":"all.css","sourcesContent":["h1 {\n  color: red;\n  p {\n    color: black;\n  }\n  h2 {\n    font-size: 20px;\n  }\n}\n"]}
