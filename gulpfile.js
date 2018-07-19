@@ -94,6 +94,12 @@ gulp.task('watch', function () {
 });
 
 
+gulp.task('deploy', function () {
+  return gulp.src('./public/**/*')
+    .pipe($.ghPages());
+});
+
+
 gulp.task('build', gulpSequence('clean', 'jade', 'sass', 'image-min', 'babel'));
 
 gulp.task('default', ['jade', 'sass', 'babel', 'browser-sync', 'watch']);
